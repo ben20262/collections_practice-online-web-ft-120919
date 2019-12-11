@@ -31,9 +31,18 @@ def swap_elements_from_to (array, index, dest)
 end
 
 def reverse_array (array)
+  brray = []
+  array.each_index do |a|
+    brray << array[-a]
+  end
 end
 
 def kesha_maker (array)
+  brray = []
+  array.each do |word|
+    word[2] = $
+    brray << word
+  end
 end
 
 def find_a (array)
