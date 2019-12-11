@@ -43,9 +43,13 @@ def kesha_maker (array)
     word[2] = $
     brray << word
   end
+  brray
 end
 
 def find_a (array)
+  array.select do |word|
+    word.start_with?("a")
+  end
 end
 
 def sum_array (array)
