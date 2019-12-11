@@ -22,6 +22,14 @@ def swap_elements (array)
   end
 end
 
+def swap_elements_from_to (array, index, dest)
+  array.sort do |a, b|
+    if a == array[index] && b == array[dest]
+      -1
+    end
+  end
+end
+
 def reverse_array (array)
 end
 
