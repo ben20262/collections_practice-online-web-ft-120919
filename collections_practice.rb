@@ -54,7 +54,7 @@ def sum_array (array)
   end
 end
 
-def ad_s (array)
+def add_s (array)
   array.each_with_index.collect do |word, index|
     word + "!" if index != 1
   end
