@@ -53,6 +53,9 @@ def find_a (array)
 end
 
 def sum_array (array)
+  array.reduce do |sum, b|
+    sum + b
+  end
 end
 
 def ass_s (array)
